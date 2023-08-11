@@ -1,0 +1,2 @@
+# KashApp
+AI Bounty Assistant

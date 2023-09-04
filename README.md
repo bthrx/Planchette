@@ -2,7 +2,7 @@
 AI tool to help make sense of all your proxied traffic. Currently it only works with a Caido CSV file and with the openai LLM.
 
 ### Install:
-Install requirements.txt
+```pip install -r requirements.txt```
 
 ### Use:
 Put your OpenAI api key in config/keys.ini 

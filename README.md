@@ -6,6 +6,7 @@ AI tool to help make sense of all your proxied traffic. Currently it only works 
 
 ### Use:
 Put your OpenAI api key in config/keys.ini 
+
 ```python main.py --caido-csv /PATH/TO/CSV --llm openai | tee /PATH/TO/SAVE/FILE```
 
 ### Limitations:

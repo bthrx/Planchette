@@ -1,7 +1,7 @@
 import argparse
 import re
 import requests
-from openai_request.openai_debug import openai_request
+from openai_request.openai import openai_request
 from caidocsv.caidocsv import parse_csv
 
 parser = argparse.ArgumentParser()

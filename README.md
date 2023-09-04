@@ -1,2 +1,2 @@
-# KashApp
+# Planchette
 AI Bounty Assistant

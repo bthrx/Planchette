@@ -16,9 +16,8 @@ args = parser.parse_args()
 
 if args.caido_csv:
     r_request, r_response = parse_csv(args.caido_csv)
-    tld_url = "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
-    tld_response = requests.get(tld_url)
-    tlds = tld_response.text.lower().splitlines()
+    tld_file = open('tlds-alpha-by-domain.txt','r')
+    tlds = tld_file.read().lower().splitlines()
     request_list = [element.decode("latin-1") for element in r_request]
     response_list = [element.decode("latin-1") for element in r_response]
     tld_regex = r"\b(" + "|".join(tlds) + r")\b"
